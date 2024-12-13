@@ -470,8 +470,8 @@ footer{
     display: inline-flex;
     gap: 40px;
     font-size: 25px;
-    text-align: center;
-    gap: 500px;
+    text-align: left;
+/*     gap: 500px; */
     margin-left: 120px;
 }
 
