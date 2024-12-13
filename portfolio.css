@@ -467,11 +467,11 @@ footer{
 }
 
 .flex1{
-    display: inline-flex;
+    display: flex;
     gap: 40px;
     font-size: 25px;
     text-align: left;
-/*     gap: 500px; */
+    gap: 500px;
     margin-left: 120px;
 }
 
