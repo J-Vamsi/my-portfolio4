@@ -112,17 +112,17 @@
                 <div class="grid1">
                     <div>
                         <a><span class="one"></span></a>
-                        <a><span class="one1"></span></a>
+                        <a><span class="one1"></span></a><br>
                         <a class="percentage">80%</a>
                     </div>
                     <div>
                         <a><span class="two"></span></a>
-                        <a><span class="two1"></span></a>
+                        <a><span class="two1"></span></a><br>
                         <a class="percentage">80%</a>
                     </div>
                     <div>
                         <a><span class="three"></span></a>
-                        <a><span class="three1"></span></a>
+                        <a><span class="three1"></span></a><br>
                         <a class="percentage">80%</a>
                     </div>
                 </div>
@@ -136,17 +136,17 @@
                 <div class="grid1">
                     <div>
                         <a><span class="four"></span></a>
-                        <a><span class="four1"></span></a>
+                        <a><span class="four1"></span></a><br>
                         <a class="percentage">80%</a>
                     </div>
                     <div>
                         <a><span class="five"></span></a>
-                        <a><span class="five1"></span></a>
+                        <a><span class="five1"></span></a><br>
                         <a class="percentage">80%</a>
                     </div>
                     <div >
                         <a><span class="six"></span></a>
-                        <a><span class="six1"></span></a>
+                        <a><span class="six1"></span></a><br>
                         <a class="percentage">80%</a>
                     </div>
                 </div>
