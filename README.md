@@ -158,8 +158,8 @@
 
 
 
-    <section id="contact" style="margin-bottom: 180px; margin-top: 180px;">
-        <div style="display: flex; justify-content: center;gap: 300px; align-items:center;">
+    <section id="contact" style="margin-bottom: 180px;">
+        <div style="display: flex; justify-content: center;gap: 300px; align-items:center; padding-top:180px;">
             <h1 style="font-size: 50px; color: rgb(106, 0, 148); background-color: aliceblue; width: 300px; text-align: center; border-radius: 10px;">Contact-<span style="color: rgb(0, 185, 126);">Me</span></h1>
             <div style="">
                 <a href="mailto:jangalavamsi32@gmail.com"><i class="bx bx-mail-send" style="font-size: 25px;"></i></a>
