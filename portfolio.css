@@ -475,7 +475,7 @@ footer{
     display: inline-flex;
     gap: 40px;
     font-size: 30px;
-    text-align: left;
+    text-align: center;
     gap: 550px;
 }
 
@@ -497,5 +497,5 @@ footer{
 .grid1{
     display: grid;
     font-size: 30px;
-    gap: 65px;
+    gap: 35px;
 }
