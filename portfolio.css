@@ -1,0 +1,500 @@
+html{
+    scroll-behavior: smooth;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background-image: url("background.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+#header{
+    background-color: rgb(0, 24, 142);
+    width: 100%;
+    position: fixed;
+    box-shadow: 0px 0px 15px rgb(0, 24, 142);
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    padding: 10px;
+}
+
+#navbar ul{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    list-style-type: none;
+}
+
+#navbar a{
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 5px;
+}
+
+#heading{
+    text-align: center;
+    color: white;
+    font-style: italic;
+    font-size: 2rem;
+    padding-bottom: 10px;
+}
+
+#navbar a:hover{
+    background-color: rgb(9, 231, 227);
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgb(9, 231, 227);
+}
+
+/*--------------------------------------------------------------------------------------------------------------------------------*/
+
+footer{
+    width: 100%;
+    position: fixed;
+    text-align: center;
+    padding: 20px;
+    background-color: rgb(0, 24, 142);
+    color: white;
+    bottom: 0px;
+    left: 0px;
+    height: 55px;
+}
+
+/*---------------------------------------------------------------------------------------------------------------------------------*/
+
+#first-page{
+    display: grid;
+}
+
+#text1 h1{
+    font-size: 40px;
+    background-image: linear-gradient(45deg, rgb(159, 164, 0), #ba00ab, rgb(2, 144, 2), rgb(173, 3, 173), rgb(5, 10, 143));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#text1{
+    animation: left-slide 2s forwards;
+}
+
+#flex1{
+    display: inline-flex;
+    gap: 200px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 150px;
+}
+
+#img1{
+    justify-content: center;
+    width: 400px;
+    transform: scale(0);
+    transform-origin: center;
+    animation: raaraa 1s forwards;
+    border-radius: 50%;
+    box-shadow: 0px 0px 40px rgb(0, 24, 142);
+    border: 5px solid rgb(0, 24, 142);
+
+}
+
+@keyframes raaraa{
+    100%{
+        transform: scale(1);
+    }
+}
+
+@keyframes left-slide{
+    0%{
+        transform: translateX(-300px);
+    }
+    50%{
+        transform: translateX(100px);
+    }
+    100%{
+        transform: translateX(0px);
+    }
+}
+
+@keyframes slideup{
+    0%{
+        transform: scaleX(0);
+    }
+    100%{
+        transform: scaleX(1);
+    }
+}
+
+/*-------------------------------------------------------------------------------------------------------------------------------*/
+
+.intro-container{
+    padding-top: 110px;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    animation: left-slide 1s ease-in;
+    align-items:center;
+}
+
+
+.name {
+    background-image: linear-gradient(45deg, rgb(159, 164, 0), #ba00ab, rgb(2, 144, 2), rgb(173, 3, 173), rgb(5, 10, 143));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 35px;
+}
+
+.profile-image {
+    border-bottom: 5px solid blue;
+    border-right:  5px solid rgb(255, 0, 212);
+    border-left: 5px solid rgb(47, 255, 0);
+    border-top: 5px solid rgb(255, 0, 4);
+    border-radius: 50%;
+    box-shadow: 0px 0px 15px rgb(255, 243, 8);
+    height: 200px;
+    width: 200px;
+    cursor: pointer;
+}
+
+
+.info-box {
+    border: 3px solid rgb(0, 0, 0);
+    box-shadow: 0px 0px 15px rgb(0, 0, 0);
+    text-align: center;
+    animation: slideup 1s forwards;
+    animation-direction: left;
+    padding: 15px;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-top: 20px;
+}
+
+.cta-container {
+    display: flex;
+    justify-content: center;
+    animation: slideup 1s ease-in;
+    margin-top: 35px;
+    gap: 10px;
+}
+
+
+.cta-button {
+    background-image: linear-gradient(60deg, rgb(0, 206, 0), rgb(2, 2, 204), rgb(255, 0, 0));
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    border-radius: 60px;
+    text-decoration: none;
+}
+
+.cta-button:hover {
+    background-image: none;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 0px 10px rgb(255, 255, 255);
+    text-shadow: 0px 0px 2px rgb(0, 0, 0);
+    color: rgb(0, 0, 0);
+}
+
+.buttons-icons{
+    font-size: 20px;
+    padding-top: 3px;
+}
+
+.buttons-icons a{
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 50%;
+    padding: 4px;
+    color: rgb(0, 0, 0);
+    display: inline-flex;
+    text-decoration: none;
+}
+
+.buttons-icons a:hover{
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    border: 2px solid rgb(255, 255, 255);
+    box-shadow: 0px 0px 10px white;
+    text-shadow: 0px 0px 2px rgb(0, 0, 0);
+}
+
+/*-----------------------------------------------------------------------------------------------------------------------------*/
+
+#education{
+    color: rgb(0, 24, 142);
+}
+
+#edu, #ski{
+    text-align: center;
+    font-size: 48px;
+}
+
+#edu span,#ski span{
+    color: rgb(255, 255, 255);
+    -webkit-text-stroke: 2px rgb(0, 24, 142);
+}
+
+.edu-details{
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+    margin-bottom: 80px;
+}
+
+.school,.intermediate,.engineering{
+    border: 5px solid rgb(0, 24, 142);
+    padding-left: 30px;
+    padding-top: 30px;
+    padding-right: 30px;
+    padding-bottom: 0px;
+    box-shadow: 0px 0px 30px rgb(0, 24, 142);
+    border-radius: 10%;
+    cursor:pointer;
+    background-image: url("background1.avif");
+    animation: slide;
+    animation-timeline: view();
+    animation-range: entry 0;
+    width: 450px;
+}
+
+.intermediate:hover,.engineering:hover,.school:hover{
+    transform: translateY(10px);
+}
+
+.school p,.intermediate p,.engineering p{
+    text-align: justify;
+    font-size: medium;
+    line-height: 23px;
+}
+
+
+@keyframes slide {
+    from{
+        transform: translateX(100px);
+    }
+    to{
+        transform: translateX(0px);
+    }
+}
+
+.heading{
+    display: flex;
+    align-items: center;
+    column-gap: 50px;
+    color: rgb(0, 24, 142);
+}
+
+.heading #logo, .heading #logo2, .heading #logo1{
+    font-size: 40px;
+    padding-top: 5px;
+    transition: all 1s transform;
+    /* -webkit-animation: spin 1s linear infinite;
+    -moz-animation: spin 1s linear infinite;
+    animation: spin 1s linear infinite; */
+    animation: tada 1.5s ease infinite;
+}
+
+
+/*--------------------------------------------------------------------------------------------------------------------------------*/
+
+.buttons-contact{
+    font-size: 40px;
+    padding-left: 5px;
+    padding-top: 8px;
+}
+
+.buttons-contact #one{
+    border: 4px solid rgb(0, 0, 0); 
+    border-radius: 50%; 
+    padding: 8px; 
+    color: rgb(218, 0, 7); 
+    text-decoration: none; 
+    padding-bottom: 3px;
+    margin-right: 20px;
+}
+
+.buttons-contact #two{
+    border: 4px solid rgb(0, 0, 0); 
+    border-radius: 50%; 
+    padding: 8px; 
+    color: green; 
+    text-decoration: none; 
+    padding-bottom: 3px;
+    margin-right: 20px;
+}
+
+.buttons-contact #three{
+    border: 4px solid rgb(0, 0, 0); 
+    border-radius: 50%; 
+    padding: 8px; 
+    color: rgb(0, 24, 142); 
+    text-decoration: none; 
+    padding-bottom: 3px;
+    margin-right: 20px;
+}
+
+.buttons-contact #four{
+    border: 4px solid rgb(0, 0, 0); 
+    border-radius: 50%; 
+    padding: 8px; 
+    color: yellow; 
+    text-decoration: none; 
+    padding-bottom: 3px;
+    margin-right: 20px;
+}
+
+
+
+
+
+.buttons-contact #one:hover{
+    border: 4px solid rgb(0, 0, 0);
+    border-radius: 50%;
+    padding: 8px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    padding-bottom: 3px;
+    margin-right: 20px;
+    text-shadow: 0px 0px 3px black;
+}
+
+.buttons-contact #two:hover{
+    border: 4px solid rgb(0, 0, 0);
+    border-radius: 50%;
+    padding: 8px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    padding-bottom: 3px;
+    margin-right: 20px;
+    text-shadow: 0px 0px 3px black;
+}
+
+.buttons-contact #three:hover{
+    border: 4px solid rgb(0, 0, 0);
+    border-radius: 50%;
+    padding: 8px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    padding-bottom: 3px;
+    margin-right: 20px;
+    text-shadow: 0px 0px 3px black;
+}
+
+.buttons-contact #four:hover{
+    border: 4px solid rgb(0, 0, 0);
+    border-radius: 50%;
+    padding: 8px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    padding-bottom: 3px;
+    margin-right: 20px;
+    text-shadow: 0px 0px 3px black;
+}
+
+/*----------------------------------------------------------------------------------------------------------------------------*/
+
+.one,.two,.three,.four,.five,.six{
+    width: 420px;
+    background-color: black;
+    height: 5px;
+    position: absolute;
+    margin-top: 23px;
+}
+
+.percentage{
+    margin-top: 25px;
+    font-size: 20px;
+    line-height: 20px;
+}
+
+.one1{
+    width: 320px;
+    background-color: rgb(255, 251, 0);
+    height: 5px;
+    position: absolute;
+    margin-top: 23px;
+    box-shadow: 0px 0px 10px rgb(255, 251, 0);
+}
+
+.two1{
+    width: 220px;
+    background-color: rgb(255, 251, 0);
+    height: 5px;
+    position: absolute;
+    margin-top: 23px;
+    box-shadow: 0px 0px 10px rgb(255, 251, 0);
+}
+
+.three1{
+    width: 300px;
+    background-color: rgb(255, 251, 0);
+    height: 5px;
+    position: absolute;
+    margin-top: 23px;
+    box-shadow: 0px 0px 10px rgb(255, 251, 0);
+}
+
+.four1{
+    width: 250px;
+    background-color: rgb(255, 251, 0);
+    height: 5px;
+    position: absolute;
+    margin-top: 23px;
+    box-shadow: 0px 0px 10px rgb(255, 251, 0);
+}
+
+.five1{
+    width: 280px;
+    background-color: rgb(255, 251, 0);
+    height: 5px;
+    position: absolute;
+    margin-top: 23px;
+    box-shadow: 0px 0px 10px rgb(255, 251, 0);
+}
+
+.six1{
+    width: 380px;
+    background-color: rgb(255, 251, 0);
+    height: 5px;
+    position: absolute;
+    margin-top: 23px;
+    box-shadow: 0px 0px 10px rgb(255, 251, 0);
+}
+
+.flex1{
+    display: inline-flex;
+    gap: 40px;
+    font-size: 30px;
+    text-align: left;
+    gap: 550px;
+    margin-left: 70px;
+}
+
+.flex2{
+    display: flex;
+    gap: 40px;
+}
+
+.flex3{
+    display: flex;
+    gap: 40px;
+}
+
+#skills{
+    padding-top: 120px;
+    color: rgb(0, 24, 142);
+}
+
+.grid1{
+    display: grid;
+    font-size: 30px;
+    gap: 65px;
+}
